@@ -31,7 +31,7 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
         ),
         centerTitle: true,
-        toolbarHeight: 125,
+        toolbarHeight: MediaQuery.of(context).size.height/7.5,
       ),
       body: Container(
 
